@@ -1,0 +1,57 @@
+.services-section {
+  margin-top: 2.5rem;
+}
+.section-title {
+  margin-bottom: 1.25rem;
+}
+.eyebrow {
+  margin: 0 0 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #64748b;
+}
+.section-title h2 {
+  margin: 0;
+  font-size: 1.7rem;
+  color: #0f172a;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.cards article {
+  background: #f8fafc;
+  border: 1px solid #dbe2ea;
+  border-radius: 1rem;
+  padding: 1.4rem;
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.04);
+}
+.icon {
+  width: 3rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #e2e8f0;
+  color: #334155;
+  font-size: 1.25rem;
+  margin-bottom: 0.9rem;
+}
+.cards h3 {
+  margin: 0 0 0.55rem;
+  color: #0f172a;
+  font-size: 1.05rem;
+}
+.cards p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.7;
+}
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
