@@ -35,21 +35,37 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.9rem 1.3rem;
+  gap: 0.7rem;
+  padding: 0.95rem 1.3rem;
   border-radius: 999px;
-  background: #1d4ed8;
   color: #fff;
   text-decoration: none;
   font-weight: 700;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
 }
-.contact-link.secondary {
-  background: #f8fafc;
-  color: #0f172a;
-  border: 1px solid #e2e8f0;
+.contact-link.whatsapp {
+  background: #16a34a;
+}
+.contact-link.email {
+  background: #1d4ed8;
+}
+.contact-link .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-link .icon svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: currentColor;
 }
 @media (max-width: 700px) {
   .contact-actions {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .contact-link {
+    justify-content: center;
   }
 }
